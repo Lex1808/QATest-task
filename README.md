@@ -30,9 +30,9 @@ If Node.Js is not installed, follow the instructions below: [https://nodejs.org/
 3. Go to the project folder: `cd qa-test-task`
 4. Set up dependencies: `npm install`
 
-## Run tests
+## Run tests (2 options)
 
 * Open Cypress Test Runner: `npx cypress open`
-# OR
+
 * Run tests in headless mode: `npx cypress run`
 
