@@ -24,7 +24,8 @@ This project contains automated tests for [https://rahulshettyacademy.com/seleni
    node -v
    npm -v
    ```
-If Node.Js is not installed, follow the instructions below: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
+If Node.Js is not installed, follow the instructions below: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager) 
+
 2. Clone the repository: `git clone https://github.com/Lex1808/QATest-task.git`
 3. Go to the project folder: `cd qa-test-task`
 4. Set up dependencies: `npm install`
