@@ -44,7 +44,7 @@ describe('Test Task', () => {
   });
 
   it('Remove the product "Carrot" from the cart', () => {
-    cy.get('D[placeholder="Search for Vegetables and Fruits"]').type('ro');
+    cy.get('[placeholder="Search for Vegetables and Fruits"]').type('ro');
     cy.get('.product:contains("Carrot") .product-action').click();
     cy.get('.cart-icon img').click();
     cy.get('.cart-items .cart-item .product-info').contains('Carrot')
